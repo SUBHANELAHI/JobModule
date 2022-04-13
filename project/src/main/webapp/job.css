@@ -1,0 +1,67 @@
+body{
+	background-color: alica;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.sub{
+	background-color:blue;
+	color:White;
+	margin-top:10px;
+    padding:0px 10px;
+}
+.sub:hover{
+	color:White;
+	background-color:red;
+}
+.table-class{
+	border:1px solid blue;
+	padding:10px;
+	background-color:lightgreen;
+	color:blue;
+}
+input {
+     border-radius: 15px;
+     padding-left:10px
+    
+     
+  }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   right:0;
+   width: 100%;
+   margin-left: 10px;
+   margin-right: 50px;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   padding:10px;
+   
+}
